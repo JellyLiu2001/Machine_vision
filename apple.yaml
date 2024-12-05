@@ -1,0 +1,6 @@
+# 数据配置文件 apple.yaml
+train: C:\Users\ASUS\Desktop\detection\train-split\images  # 训练集图片路径
+val: C:\Users\ASUS\Desktop\detection\val\images     # 验证集图片路径
+
+nc: 1  # 类别数，苹果只有1个类别
+names: ['apple']  # 类别名称
