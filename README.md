@@ -12,7 +12,21 @@ Please click here to see the report and instructions. [Document](https://1drv.ms
 
 Apple counting in orchards traditionally relies on manual labour, which is time-consuming and error prone. Computer vision technology provides a new possibility for the automated management of orchards, through image algorithms to achieve automatic detection and counting of apples, thereby improving efficiency and reducing labour costs. This project compares the detection performance of image processing approach methods based on color extraction and edge detection with the YOLOv5 algorithm in an orchard environment. The image processing approach method has low computational cost but poor robustness to light and complex background, while YOLOv5 shows high accuracy and strong robustness under occlusion, overlapping and complex background conditions through multi-layer feature extraction and optimization techniques. The experimental results verify the advantages of YOLOv5 and explore its applicability under the condition of limited hardware resources, which provides an important reference for the automation of orchard management.
 
-## Steps
+## steps - image processing apprach
+
+### CountingApples.ipynb
+
+This file is the code of Image Processing approach for counting apples in images.
+
+### Edge_Detection.ipynb
+
+This code is used to detect the edges in the images.
+
+### Image_Processing_Approach_Evaluation.ipynb
+
+This file is used to evaluation the results of Image Processing approach which contains the accuracy of  all the images from the dataset
+
+## Steps - machine vision
 
 1. data reprocess
 
